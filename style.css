@@ -1,0 +1,20 @@
+.roman {
+    list-style-type: upper-roman;
+}
+
+.lowerRoman {
+    list-style-type: lower-roman;
+}
+
+.letter {
+    list-style-type: upper-latin;
+}
+
+ol li:nth-child(2n+1):hover {
+    background-color: yellow;
+}
+
+ol li:nth-child(2n):hover::first-letter {
+    color: red;
+    font-size: 35px;;
+}
